@@ -2,11 +2,12 @@
 
 .search{
     width: 98%;
-    margin: 0 auto;
+    margin: 10px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 140px;
+
 }
 
 
@@ -19,11 +20,24 @@
 
 .search .title-left{
     display: flex;
-    justify-content: left;
-    align-items: center;
-    font-size: 35px;
+    justify-content: center;
+    align-items: initial;
+    flex-direction: column;
 }
 
+.search h1{
+    font-size: 35px;
+    font-weight: normal;
+}
+
+.search .title-left span{
+    margin-top: 10px;
+}
+
+.search .title-left span a{
+    text-decoration: none;
+    font-size: 13px;
+}
 
 .search .search-btns{
     display: flex;
@@ -38,6 +52,8 @@
     padding: 2px;
     border-radius: 5px;
     border-color: #dddddd;
+    margin-right: 4px;
+    color: #676e75; 
 }
 
 .search .search-btns .select-two{
@@ -46,6 +62,7 @@
     padding: 2px;
     border-radius: 4px;
     border-color: #dddddd;
+    color: #676e75;
 }
 
 .btn-1{
@@ -85,4 +102,27 @@ button{
 
 button span{
     margin-left: 3px;
+}
+
+
+@media (max-width: 1024px){
+    
+    .search .title-left, .search .search-btns{
+        width: 100%;
+        height: 140px;
+        flex-direction: column;
+        text-align: center;
+        margin: 15px 0 8px 0;
+    }
+    .search{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .search-right{
+        margin-bottom: 25px;
+    }
+
 }

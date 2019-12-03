@@ -1,0 +1,110 @@
+
+
+table{
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    border-spacing: 0;
+
+}
+
+
+table td{
+    border: none;
+}
+
+table .type{
+    border-radius: 5px;
+    height: 14px;
+    background-color: #eea538;
+    font-size: 11px;
+    color: #fff;
+    padding: 2px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+table .type-blue{
+    background-color: #6195c5;
+}
+
+table .type-red{
+    background-color: #da4e4c;
+}
+
+table .formulation{
+    height: 12px;
+    font-size: 11px;
+    color: #656584;
+    font-style: italic;
+}
+
+table div.wrap-manufactor{
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    color: #9c9fb6;
+    margin-top: 5px;
+}
+
+
+
+tr:nth-child(odd){background-color: #f8f8f8}
+
+table .first-line{
+    background-color: #fff;
+}
+
+table .title-th-icon{
+    width: 150px;
+}
+
+table .title-th{
+    font-weight: normal;
+    font-size: 12px;
+}
+
+
+table td {
+    height: 75px;
+}
+
+
+table .balance{
+    color: #6195c5;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: right;
+    padding-right: 25px ;
+}
+
+
+
+table .table-input{
+    height: 32px;
+    width: 90px;
+    padding: 2px;
+    border-radius: 4px;
+    border: 1px solid #dddddd; 
+    margin-left: 3px;
+    color: #676e75;
+}
+
+
+table .price{
+    color: #373d72;
+    font-size: 12px;
+}
+
+
+table .icon{
+    cursor: pointer
+}
+
+@media (max-width: 1024px){
+    table{
+        margin-top: 45px;
+    }
+
+}
