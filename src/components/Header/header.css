@@ -65,8 +65,28 @@ header section .nav-link .icons{
 	justify-content: space-between;
 }
 
-@media (max-width: 1116px){
+@media (max-width: 1024px){
 	nav ul li{
 		font-size: 12px;
 	}
+
+	header{
+		height: 120px;
+	}
+	section{
+		flex-direction: column;
+		height: 120px;
+	}
+
+	.logo-operation{
+		width: 100%;
+	}
+	.nav-link{
+		margin-top: 18px;
+		width: 100%;
+		justify-content: center !important;
+	}
+
+
+
 }

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-// import api from '../../service/api';
 
-import '../../styles/search.css'
+import './search.css'
 
 import { FaPlus } from 'react-icons/fa';
 
@@ -9,16 +8,16 @@ import { FaPlus } from 'react-icons/fa';
 
 export default class Search extends Component {
     render() {
-        // const {report} = this.props;
         return (
             <div className="center">
                 <div className="search">
                     <div className="title-left">
-                        Insumos
+                        <h1>Insumos</h1>
+                        <span><a href="/">Busca avançada</a></span>
                     </div>
 
                     <div className="search-btns">
-                        <div className="search-righ">
+                        <div className="search-right">
                             <select className="select-one">
                                 <option>Fazenda 1</option>
                                 <option>Fazenda 2</option>

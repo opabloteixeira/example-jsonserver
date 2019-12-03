@@ -1,0 +1,36 @@
+{"products":[
+	{
+		"balance": 80.00,
+		"unit": "L",
+		"name": "Bumper",
+		"type": "Fungicida",
+		"formulation": "propiconazol",
+		"manufactor": "MILENIA AGROCIÊNCIAS S.A. - Londrina",
+		"price": 9.00
+	},
+	{
+		"balance": 900.00,
+		"unit": "L",
+		"name": "Rubigan 120 EC",
+		"type": "Fungicida",
+		"formulation": "fenarimol",
+		"manufactor": "CROSS LINK CONSULTORIA E COMÉRCIO LTDA.",
+		"price": 90.60
+	},
+	{
+		"balance": 111.110,
+		"unit": "Kg",
+		"name": "Sementes",
+		"type": "Outros",
+		"price": 500.00
+	},
+	{
+		"balance": 9000.00,
+		"unit": "L",
+		"name": "Tracer",
+		"type": "Inseticida",
+		"formulation": "espinosade",
+		"manufactor": "DOW AGROSCIENCES INDUSTRIAL LTDA. - São Paulo",
+		"price": 57.41
+	}
+]}

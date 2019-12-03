@@ -1,0 +1,12 @@
+
+
+
+footer section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #9c9fb6;
+    font-size: 12px;
+    margin-top: 40px;
+}
