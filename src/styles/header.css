@@ -1,0 +1,72 @@
+header{
+    background: #363e48;
+    height: 60px;
+	width: 100%;
+	
+}
+
+section{
+	height: 60px;
+	display: flex;
+	align-items: center;
+	width: 98%;
+	margin: 0 auto;
+}
+
+.logo-operation{
+	display: inherit;
+	align-items: center;
+	width: 380px;
+	justify-content: space-between;
+}
+
+.logo-operation img{
+	height: 40px;
+}
+
+.logo-operation .operation{
+	background-color: #434c56;
+	height: 42px;
+	width: 140px;
+	color: #a7aaac;
+	line-height: 45px;
+	text-align: center;
+	font-size: 20px;
+}
+
+header section nav ul li{
+	list-style: none;
+	display: inline-block;
+    padding: 0 15px;
+    font-size: 14px;
+}
+
+header section nav ul li a{
+	text-decoration: none;
+	color: #a7aaac;
+}
+
+header section nav ul li a:hover{
+	color: #fff;
+}
+
+header section .nav-link{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+
+}
+
+
+header section .nav-link .icons{
+	width: 60px;
+	display: inherit;
+	justify-content: space-between;
+}
+
+@media (max-width: 1116px){
+	nav ul li{
+		font-size: 12px;
+	}
+}

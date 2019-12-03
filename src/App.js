@@ -6,6 +6,7 @@ import './styles/reset.css';
 // import "font-awesome/css/font-awesome.min.css";
 
 import Header from "./components/Header";
+import Search from "./components/Search";
 // import Chart from '../components/Chart';
 // import Reports from '../components/Reports';
 
@@ -14,6 +15,7 @@ export default props => (
         
             <>
               <Header/>
+              <Search/>
             </>
     
 )
