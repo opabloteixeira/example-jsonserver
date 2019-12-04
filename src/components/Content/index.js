@@ -30,7 +30,8 @@ export default class Content extends Component {
     render() {
         return (
             <div className="center">
-                <table className="tg">
+                <table>
+                    <tbody>
                     <tr className="first-line">
                         <th className="title-th">Estoque Físico na Fazenda</th>
                         <th className="title-th">Insumo</th>
@@ -41,7 +42,7 @@ export default class Content extends Component {
                     {
                         this.state.products.map(item => (
                            
-                            <tr>
+                            <tr key={item.name}>
                                 <td className="balance">{`${item.balance.toLocaleString('pt-br', {minimumFractionDigits: 3})} ${item.unit} `} <FaDatabase color='#1b1b1b'/></td>
                                 <td className="description">
                                     {` ${item.name} `} 
@@ -64,7 +65,6 @@ export default class Content extends Component {
                                 <td className="price">USD 
                                     <input 
                                         defaultValue={item.price.toLocaleString('pt-br', {minimumFractionDigits: 2})} 
-                                        onChangeText={(text) => this.setState({ price: text })}
                                         type='text' className='table-input'>
                                     </input>
 
@@ -76,7 +76,7 @@ export default class Content extends Component {
                             </tr>
                         ))
                     }
-                    
+                    </tbody>
                 </table>
             </div>
         );
